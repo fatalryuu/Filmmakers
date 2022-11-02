@@ -1,56 +1,42 @@
 let dobrolubovTimeline = [
     {
         id: 1,
-        title: "Frontend Developer",
-        location: "Dragontail, Ascana",
+        title: "Секретарь и профессор",
         description:
-            "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-        date: "August 2016 - present",
+            "С 1974 по 1975 — секретарь правления Союза кинематографистов БССР. С 1993 года — профессор Института современных знаний имени А. М. Широкова (Минск). Скончался на 77-м году жизни 19 июля 2010 года в Минске. Похоронен 22 июля 2010 года на Восточном кладбище в Минске.Имя И. М. Добролюбова носит переулок в Гродно, в котором проходили съёмки самой известной картины режиссёра «Белые Росы».",
+        date: "1974 - 2010",
         icon: "work",
     },
     {
         id: 2,
-        title: "Backend Developer",
-        location: "Skystead, Craonia",
+        title: "Режиссерская карьера",
         description:
-            "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-        date: "June 2013 - August 2016",
+            "В 1963 году стал режиссёром киностудии «Беларусьфильм».",
+        date: "1963",
         icon: "work",
     },
     {
         id: 3,
-        title: "Quality Assurance Engineer",
-        location: "South Warren, Geshington",
+        title: "Актерская карьера",
         description:
-            "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-        date: "September 2011 - June 2013",
-        icon: "work",
+            "В 1956 — 1958 годах был актёром Белорусского республиканского ТЮЗа.",
+        date: "1956 - 1958",
+        icon: "school",
     },
     {
         id: 4,
-        title: "Oak Ridge College",
-        location: "South Warren, Geshington",
+        title: "Учеба",
         description:
-            "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "September 2011",
+            "В 1956 году окончил факультет журналистики Белорусского государственного университета. А в 1963 году — режиссёрский факультет ВГИКа (мастерская Михаила Ромма).",
+        date: "1956 - 1963",
         icon: "school",
     },
     {
         id: 5,
-        title: "Hawking College",
-        location: "Skystead, Craonia",
+        title: "Детство",
         description:
-            "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2007 - 2011",
-        icon: "school",
-    },
-    {
-        id: 6,
-        title: "Marble Hills Grammar School",
-        location: "Dragontail, Ascana",
-        description:
-            "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2003 - 2007",
+            "Игорь Михайлович Добролюбов родился 22 октября 1933 года в Новосибирске.",
+        date: "22 октября 1933",
         icon: "school",
     }
 ]

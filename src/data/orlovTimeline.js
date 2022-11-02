@@ -1,56 +1,34 @@
 let orlovTimeline = [
     {
         id: 1,
-        title: "Frontend Developer",
-        location: "Dragontail, Ascana",
+        title: "Работая деятельность",
         description:
-            "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-        date: "August 2016 - present",
+            "Работал в Новополоцке учителем истории, корреспондентом, заведующим отделом, заместителем редактора городской газеты «Химик», после переезда в Минск – редактором издательства «Мастацкая літаратура» (1988—1997). С 1988 в Белорусском Народном Фронте, дважды избирался в Сойм БНФ.",
+        date: "1988 - 1997",
         icon: "work",
     },
     {
         id: 2,
-        title: "Backend Developer",
-        location: "Skystead, Craonia",
+        title: "Дебют в творчество",
         description:
-            "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-        date: "June 2013 - August 2016",
+            "Дебютировал стихами в студенческом самиздатском журнале «Блакітны ліхтар» (Новополоцк, 1973). Во время учебы в БГУ стал одним из инициаторов выпуска в Минске самиздатского литературного альманаха «Мілавіца» (1974—1976), за что вызывался в КГБ  для “профілактіческіх бесед”. Вместе с В. Мудровым в 1970—1980-х принял участие в копировании и распространении  ряда запрещенных в то время белорусских изданий, среди которых был «Расейска-беларускі (крыўскі) слоўнік» В. Ластовского.",
+        date: "1973 - 1980",
         icon: "work",
     },
     {
         id: 3,
-        title: "Quality Assurance Engineer",
-        location: "South Warren, Geshington",
+        title: "Учеба",
         description:
-            "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-        date: "September 2011 - June 2013",
-        icon: "work",
+            "Учился на историческом факультете БГУ (1975).",
+        date: "1970 - 1975",
+        icon: "school",
     },
     {
         id: 4,
-        title: "Oak Ridge College",
-        location: "South Warren, Geshington",
+        title: "Детство",
         description:
-            "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "September 2011",
-        icon: "school",
-    },
-    {
-        id: 5,
-        title: "Hawking College",
-        location: "Skystead, Craonia",
-        description:
-            "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2007 - 2011",
-        icon: "school",
-    },
-    {
-        id: 6,
-        title: "Marble Hills Grammar School",
-        location: "Dragontail, Ascana",
-        description:
-            "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2003 - 2007",
+            "Орлов Владимир Алексеевич родился 25 августа 1953 года в Витебской области, городе Полоцк",
+        date: "25 августа 1953",
         icon: "school",
     }
 ]

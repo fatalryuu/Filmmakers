@@ -1,56 +1,34 @@
 let kudinenkoTimeline = [
     {
         id: 1,
-        title: "Frontend Developer",
-        location: "Dragontail, Ascana",
+        title: "Проффесиональная карьера",
         description:
-            "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-        date: "August 2016 - present",
+            "В 2004 году вышел фильм «Оккупация. Мистерии», фильм принимал участие в основной программе Роттердамского кинофестиваля. В самой Белоруссии лента долгое время была запрещена, чиновники усмотрели «идеологически неправильный» взгляд на войну, немцев и партизан (фильм разрешён только в 2010 году). Несколько лет после этого не снимал, пока не попал на съёмки сериала «Кадетство», а затем на «Студию Павла Лунгина». У Павла Лунгина снял фильм по мотивам одноимённого фильма Владимира Меньшова «Розыгрыш».",
+        date: "2004 - Наше время",
         icon: "work",
     },
     {
         id: 2,
-        title: "Backend Developer",
-        location: "Skystead, Craonia",
+        title: "Полнометражный дебют",
         description:
-            "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-        date: "June 2013 - August 2016",
+            "В 2002 году Кудиненко снял свой полнометражный дебют «Битва пяти воинств», фильм о подростках увлекающихся произведениями Толкиена.",
+        date: "2002",
         icon: "work",
     },
     {
         id: 3,
-        title: "Quality Assurance Engineer",
-        location: "South Warren, Geshington",
+        title: "Учеба",
         description:
-            "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-        date: "September 2011 - June 2013",
-        icon: "work",
+            "Учился в Киевском политехническом институте (1988—1992). Окончил Белорусскую государственную академию искусств в 1998 году (мастерская Виктора Турова), затем аспирантуру (2001). Во время учёбы получал стипендию специального фонда Президента Республики Беларусь по поддержке талантливой молодёжи, имеющей творческие достижения. Андрей Кудиненко — один из последних учеников легенды «Беларусьфильма» Виктора Турова.",
+        date: "1988-2001",
+        icon: "school",
     },
     {
         id: 4,
-        title: "Oak Ridge College",
-        location: "South Warren, Geshington",
+        title: "Детство",
         description:
-            "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "September 2011",
-        icon: "school",
-    },
-    {
-        id: 5,
-        title: "Hawking College",
-        location: "Skystead, Craonia",
-        description:
-            "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2007 - 2011",
-        icon: "school",
-    },
-    {
-        id: 6,
-        title: "Marble Hills Grammar School",
-        location: "Dragontail, Ascana",
-        description:
-            "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2003 - 2007",
+            "Андрей Анатольевич Кудиненко родился 20 октября 1971 года в Бресте, БССР",
+        date: "20 Октября 1971",
         icon: "school",
     }
 ]

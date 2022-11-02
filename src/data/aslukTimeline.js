@@ -1,56 +1,26 @@
 let aslukTimeline = [
     {
         id: 1,
-        title: "Frontend Developer",
-        location: "Dragontail, Ascana",
+        title: "Работа",
         description:
-            "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-        date: "August 2016 - present",
+            "С 1995 года В. Аслюк работает на Национальной киностудии «Беларусьфильм», снимает фильмы в объединении «Летопись» и «Белвидеоцентр». За почти три десятилетия своей работы Виктор Николаевич стал режиссером и сценаристом более 40 документальных фильмов. В центре внимания его фильмов – тесная связь с культурными традициями белорусского народа, его литературой, живописью, музыкой, историей, религией, духовными проблемами молодежи, поиском современниками нравственных ценностей. Обобщенный портрет деревенских старух представлен в образно-метафорической форме в фильме «Живем на краю» (2002), получившем более 20 фестивальных наград, в том числе премию Европейской киноакадемии 2003 за лучший короткометражный фильм. Среди других фильмов мастера - «Неизвестная война» (1992), «Сказка о городе Копыси» (1997), «Край тоскливых песен» (1998), «Колесо» (2003), «Полоцк». (2009) и другие. Фильмы «Сны» (1995), «Федор Шмаков. Осколки...\" (1998), \"Колосс будет жить вечно\" (2002), \"Андрей\" (2010). Знаковым для отечественного кинематографа стал фильм «Янка Купала» (2017), в котором режиссер пытался понять смысл своего поэтического наследия.",
+        date: "1995 - Наше время",
         icon: "work",
     },
     {
         id: 2,
-        title: "Backend Developer",
-        location: "Skystead, Craonia",
+        title: "Учеба",
         description:
-            "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-        date: "June 2013 - August 2016",
-        icon: "work",
+            "В 1984 году окончил филологический факультет Белорусского государственного университета. В 1989 году поступил в Белорусский государственный театрально-художественный институт (ныне Белорусская государственная академия искусств). Режиссуре документального кино обучался в мастерской В. Дашука. Его дипломной работой стал фильм «Слезы блудного сына» (1994), в котором начинающий режиссер в оригинальной жанрово-стилистической манере воссоздал далекие исторические события и отразился на судьбах белорусов.",
+        date: "1984 - 1994",
+        icon: "school",
     },
     {
         id: 3,
-        title: "Quality Assurance Engineer",
-        location: "South Warren, Geshington",
+        title: "Детство",
         description:
-            "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-        date: "September 2011 - June 2013",
-        icon: "work",
-    },
-    {
-        id: 4,
-        title: "Oak Ridge College",
-        location: "South Warren, Geshington",
-        description:
-            "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "September 2011",
-        icon: "school",
-    },
-    {
-        id: 5,
-        title: "Hawking College",
-        location: "Skystead, Craonia",
-        description:
-            "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2007 - 2011",
-        icon: "school",
-    },
-    {
-        id: 6,
-        title: "Marble Hills Grammar School",
-        location: "Dragontail, Ascana",
-        description:
-            "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2003 - 2007",
+            "Виктор Михайлович Аслюк родился в д. Лясковичи Октябрьского района Гомельской области.",
+        date: "26 Ноябрь 1961",
         icon: "school",
     }
 ]

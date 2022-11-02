@@ -82,6 +82,32 @@ const initialDetails = [
     },
     {
         id: 3,
+        imgPath: orlov,
+        name: "Владимир Орлов",
+        dateOfBirth: 1971,
+        dateOfDeath: "наше время",
+        someText: "Белорусский писатель, публицист, режиссер театра и кино.\n" +
+            "В 1963 году окончил БГТХИ (первый выпуск режиссерского факультета).\n" +
+            "В 1956-59 годах работал на киностудии \"Беларусьфильм\": помощник, ассистент режиссера, режиссер-практикант.\n" +
+            "С 1963 по 2002 - на Гостелерадио РБ, т/о \"Телефильм\" (кинорежиссер-постановщик высшей категории).",
+        photos: [
+            orlovPhoto1,
+            orlovPhoto2,
+            orlovPhoto3,
+            orlovPhoto4,
+        ],
+        links: [
+            "https://www.youtube.com/embed/bW6aBmFZOVk",
+            "https://www.youtube.com/embed/Y_gRKe0IdmM"
+        ],
+        coordinates: {
+            longitude: 26,
+            latitude: 53
+        },
+        url: "/orlov"
+    },
+    {
+        id: 4,
         imgPath: kudinenko,
         name: "Андрей Кудиненко",
         dateOfBirth: 1971,
@@ -106,32 +132,6 @@ const initialDetails = [
             latitude: 53
         },
         url: "/kudinenko"
-    },
-    {
-        id: 4,
-        imgPath: orlov,
-        name: "Владимир Орлов",
-        dateOfBirth: 1938,
-        dateOfDeath: "наше время",
-        someText: "Белорусский писатель, публицист, режиссер театра и кино.\n" +
-            "В 1963 году окончил БГТХИ (первый выпуск режиссерского факультета).\n" +
-            "В 1956-59 годах работал на киностудии \"Беларусьфильм\": помощник, ассистент режиссера, режиссер-практикант.\n" +
-            "С 1963 по 2002 - на Гостелерадио РБ, т/о \"Телефильм\" (кинорежиссер-постановщик высшей категории).",
-        photos: [
-            orlovPhoto1,
-            orlovPhoto2,
-            orlovPhoto3,
-            orlovPhoto4,
-        ],
-        links: [
-            "https://www.youtube.com/embed/bW6aBmFZOVk",
-            "https://www.youtube.com/embed/Y_gRKe0IdmM"
-        ],
-        coordinates: {
-            longitude: 26,
-            latitude: 53
-        },
-        url: "/orlov"
     },
     {
         id: 5,

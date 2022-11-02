@@ -1,56 +1,34 @@
 let gutkovichTimeline = [
     {
         id: 1,
-        title: "Frontend Developer",
-        location: "Dragontail, Ascana",
+        title: "Работа",
         description:
-            "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-        date: "August 2016 - present",
+            "С 1949 года восемь лет работал актёром Белорусского государственного драматического театра имени Якуба Коласа. С 1957 года — педагог Белорусского республиканского театра юного зрителя. С 1959 года — режиссёр студии Белорусского телевидения. В 1961 году стал членом СП СССР.",
+        date: "1949 - 1961",
         icon: "work",
     },
     {
         id: 2,
-        title: "Backend Developer",
-        location: "Skystead, Craonia",
+        title: "Великая Отечественная война",
         description:
-            "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-        date: "June 2013 - August 2016",
-        icon: "work",
+            "Участник Великой Отечественной войны. За боевые заслуги награждён орденом Отечественной войны II степени, орденом Красной Звезды и медалями.",
+        date: "1941 - 1945",
+        icon: "school",
     },
     {
         id: 3,
-        title: "Quality Assurance Engineer",
-        location: "South Warren, Geshington",
+        title: "Учеба",
         description:
-            "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-        date: "September 2011 - June 2013",
-        icon: "work",
+            "Окончил сельскую школу. Учился в театральной студии Большого драматического театра в Ленинграде, затем в Ленинградском театральном институте, на режиссёрском факультете (1939).",
+        date: "1927 - 1939",
+        icon: "school",
     },
     {
         id: 4,
-        title: "Oak Ridge College",
-        location: "South Warren, Geshington",
+        title: "Детство",
         description:
-            "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "September 2011",
-        icon: "school",
-    },
-    {
-        id: 5,
-        title: "Hawking College",
-        location: "Skystead, Craonia",
-        description:
-            "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2007 - 2011",
-        icon: "school",
-    },
-    {
-        id: 6,
-        title: "Marble Hills Grammar School",
-        location: "Dragontail, Ascana",
-        description:
-            "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-        date: "2003 - 2007",
+            "Александр Захарович Гуткович родился 20 декабря 1920 года в местечке Аскеры (ныне Бешенковичский район, Витебская область, Белоруссия) в семье кузнеца Залмана и Цивы Гуткович.",
+        date: "20 декабря 1920",
         icon: "school",
     }
 ]

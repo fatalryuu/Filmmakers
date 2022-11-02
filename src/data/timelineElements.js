@@ -1,15 +1,16 @@
 import orlovTimeline from "./orlovTimeline";
 import gutkovichTimeline from "./gutkovichTimeline";
+import tarichTimeline from "./tarichTimeline";
 import dobrolubovTimeline from "./dobrolubovTimeline";
 import kudinenkoTimeline from "./kudinenkoTimeline";
 import aslukTimeline from "./aslukTimeline";
 
 let timelineElements = [
-    orlovTimeline,
-    gutkovichTimeline,
+    aslukTimeline,
     dobrolubovTimeline,
+    orlovTimeline,
     kudinenkoTimeline,
-    aslukTimeline
+    tarichTimeline
 ];
 
 export default timelineElements;
