@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: #1c1c1c;
+    color: #bdbdbd;
+    text-align: center;
+    width: 900px;
+    font-size: 24px;
+    margin: 10px auto;
+    border-left: 6px solid #00ff94;
+}
+
+.wrapper img {
+    width: 200px;
+}
+
+.wrapper a {
+    margin: 20px 0;
+    position: relative;
+    display: inline-block;
+    padding: 8px 30px;
+    color: #00ff94;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.wrapper a:hover {
+    color: #00a05c;
+    background: #00ff94;
+    box-shadow: 0 0 10px #00ff94, 0 0 40px #00ff94, 0 0 80px #00ff94;
+    cursor: pointer;
+}

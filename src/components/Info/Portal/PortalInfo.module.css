@@ -1,0 +1,9 @@
+.wrapper {
+    background-color: #1c1c1c;
+    color: #bdbdbd;
+    text-align: center;
+    width: 900px;
+    font-size: 24px;
+    margin: 10px auto;
+    border-left: 6px solid #00ff94;
+}

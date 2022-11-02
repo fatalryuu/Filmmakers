@@ -1,0 +1,15 @@
+.wrapper h1 {
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.list h1 {
+    text-align: left;
+}
