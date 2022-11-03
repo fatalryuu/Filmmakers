@@ -5,10 +5,12 @@ import {useTranslation} from "react-i18next";
 
 function Search(props) {
     const {t} = useTranslation();
+    let lng = t('lng');
 
     const [searchField, setSearchField] = useState("");
 
-    const filteredPersons = props.details.filter(person => person.name.toLowerCase().includes(searchField.toLowerCase()));
+    const filteredPersons = props.details.filter(person => lng === 'ru' ? person.name.toLowerCase().includes(searchField.toLowerCase()) :
+                                                                          person.name_en.toLowerCase().includes(searchField.toLowerCase()));
 
     const handleChange = e => setSearchField(e.target.value);
 
