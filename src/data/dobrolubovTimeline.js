@@ -21,7 +21,7 @@ let dobrolubovTimeline = [
         description:
             "В 1956 — 1958 годах был актёром Белорусского республиканского ТЮЗа.",
         date: "1956 - 1958",
-        icon: "school",
+        icon: "work",
     },
     {
         id: 4,

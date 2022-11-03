@@ -52,8 +52,8 @@ const filmakersInfo = [
             "https://www.youtube.com/embed/4yfl-cTWFX4"
         ],
         coordinates: {
-            longitude: 26,
-            latitude: 53
+            longitude: 27.62943681054619,
+            latitude: 53.927502869561685
         },
         url: "/asluk"
     },
@@ -77,8 +77,8 @@ const filmakersInfo = [
             "https://www.youtube.com/embed/hqpvHvPXM9o"
         ],
         coordinates: {
-            longitude: 26,
-            latitude: 53
+            longitude: 27.63681054630663,
+            latitude: 53.933196363215394
         },
         url: "/dobrolubov"
     },
@@ -104,8 +104,8 @@ const filmakersInfo = [
             "https://www.youtube.com/embed/Y_gRKe0IdmM"
         ],
         coordinates: {
-            longitude: 26,
-            latitude: 53
+            longitude: 27.548602735447222,
+            latitude: 53.9093991787487
         },
         url: "/orlov"
     },
@@ -132,8 +132,8 @@ const filmakersInfo = [
             "https://www.youtube.com/embed/GDrfDlNwlUw"
         ],
         coordinates: {
-            longitude: 26,
-            latitude: 53
+            longitude: 53.927486,
+            latitude: 27.629439
         },
         url: "/kudinenko"
     },
@@ -158,8 +158,8 @@ const filmakersInfo = [
             "https://www.youtube.com/embed/L2iObDhhE7w"
         ],
         coordinates: {
-            longitude: 26,
-            latitude: 53
+            longitude: 37.550990,
+            latitude: 55.767831
         },
         url: "/tarich"
     },
