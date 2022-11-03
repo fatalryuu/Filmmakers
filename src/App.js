@@ -5,12 +5,12 @@ import Info from "./components/Info/Info"
 import List from "./components/List/List"
 import Person from "./components/Person/Person";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import initialDetails from "./data/initialDetails";
+import filmakersInfo from "./data/filmakersInfo";
 
 const getRandomPerson = () => {
     let id = Math.floor(Math.random() * 5) + 1;
     let randomPerson;
-    initialDetails.map(person => {
+    filmakersInfo.map(person => {
         if (person.id === id)
             randomPerson = person;
     });
@@ -27,7 +27,7 @@ const App = (props) => {
                     <Routes>
                         <Route path='/info' element={<Info mainPerson={getRandomPerson()}/>}/>
                         <Route path='/list' element={<List/>}/>
-                        {initialDetails.map((person, i) => <Route key={i} path={person.url} element={<Person info={person}/>}/>)}
+                        {filmakersInfo.map((person, i) => <Route key={i} path={person.url} element={<Person info={person}/>}/>)}
                     </Routes>
                 </div>
             </div>

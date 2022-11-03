@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
-import SearchList from './SearchList';
+import SearchList from './SearchList/SearchList';
 import s from "./Search.module.css"
+import {useTranslation} from "react-i18next";
 
 function Search(props) {
+    const {t} = useTranslation();
 
     const [searchField, setSearchField] = useState("");
 
@@ -18,8 +20,8 @@ function Search(props) {
 
     return (
         <div className={s.search}>
-            <h2>Поиск</h2>
-            <input type="search" placeholder="Поиск кинорежиссера" onChange={handleChange}/>
+            <h2>{t('search')}</h2>
+            <input type="search" placeholder={t('search_placeholder')} onChange={handleChange}/>
             {searchList()}
         </div>
     );

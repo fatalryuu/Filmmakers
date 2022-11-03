@@ -3,11 +3,13 @@ import Map, {NavigationControl, Marker} from 'react-map-gl';
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css';
 import s from './MyMap.module.css'
+import {useTranslation} from "react-i18next";
 
 const MyMap = (props) => {
+    const {t} = useTranslation();
     return (
         <div className={s.wrapper}>
-            <h1>Место работы</h1>
+            <h1>{t('place_of_work')}</h1>
             <Map mapLib={maplibregl}
                  initialViewState={{
                      longitude: props.coordinates.longitude,
