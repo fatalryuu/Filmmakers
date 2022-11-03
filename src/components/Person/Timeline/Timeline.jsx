@@ -1,8 +1,9 @@
 import React from 'react';
 import timelineElements from "../../../data/timelineElements";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
-import {ReactComponent as WorkIcon} from "../work.svg";
+import {ReactComponent as WorkIcon} from "../camera-reels.svg";
 import {ReactComponent as SchoolIcon} from "../school.svg";
+import {ReactComponent as PuzzleIcon} from "../puzzle.svg";
 
 const Timeline = (props) => {
     let workIconStyles = { background: "#06D6A0" };
