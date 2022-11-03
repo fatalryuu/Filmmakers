@@ -16,7 +16,7 @@ const developersInfo = [
     {
         id: 3,
         name: "Максим",
-        nickname: "MaksimVolontirov",
+        nickname: "konchaStar",
         github: "https://github.com/MaksimVolontirov",
         img_src: "https://avatars.githubusercontent.com/u/92329714?v=4"
     }
