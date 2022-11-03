@@ -29,7 +29,7 @@ let kudinenkoTimeline = [
         description:
             "Андрей Анатольевич Кудиненко родился 20 октября 1971 года в Бресте, БССР",
         date: "20 Октября 1971",
-        icon: "school",
+        icon: "puzzle",
     }
 ]
 

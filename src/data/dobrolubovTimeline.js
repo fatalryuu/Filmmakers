@@ -37,7 +37,7 @@ let dobrolubovTimeline = [
         description:
             "Игорь Михайлович Добролюбов родился 22 октября 1933 года в Новосибирске.",
         date: "22 октября 1933",
-        icon: "school",
+        icon: "puzzle",
     }
 ]
 

@@ -61,7 +61,7 @@ let tarichTimeline = [
         description:
             "Юрий Викторович Тарич родился в Плоцкe (ныне — Мазовецкое воеводство в Польше).",
         date: "12 Января 1885",
-        icon: "school",
+        icon: "puzzle",
     }
 ]
 
