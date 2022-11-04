@@ -28,7 +28,7 @@ const MyMap = (props) => {
                 <NavigationControl position="top-left"/>
                 <Marker longitude={props.coordinates.longitude}
                         latitude={props.coordinates.latitude}
-                        color='#61dbfb' />
+                        color='#00ff94' />
             </Map>
         </div>
     )
