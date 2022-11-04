@@ -14,7 +14,7 @@ const MyMap = (props) => {
                  initialViewState={{
                      longitude: props.coordinates.longitude,
                      latitude: props.coordinates.latitude,
-                     zoom: 11
+                     zoom: 14
                  }}
                  style={{width: "500px", height: "500px", margin: "0 auto"}}
                  mapStyle="https://api.maptiler.com/maps/streets/style.json?key=0SSrcwvFMrE1W8cblstH"
