@@ -132,8 +132,8 @@ const filmakersInfo = [
             "https://www.youtube.com/embed/GDrfDlNwlUw"
         ],
         coordinates: {
-            longitude: 53.927486,
-            latitude: 27.629439
+            longitude: 27.629439,
+            latitude: 53.927486
         },
         url: "/kudinenko"
     },
