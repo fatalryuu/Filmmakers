@@ -7,3 +7,10 @@
     margin: 10px auto;
     border-left: 6px solid #00ff94;
 }
+
+@media (max-width: 991px) {
+    .wrapper {
+        height: auto;
+        width: 100%;
+    }
+}

@@ -4,3 +4,11 @@
     padding: 20px;
     margin: 0 auto;
 }
+
+@media (max-width: 991px) {
+    .filmmakers {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+}

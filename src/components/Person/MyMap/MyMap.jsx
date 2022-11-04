@@ -7,6 +7,12 @@ import {useTranslation} from "react-i18next";
 
 const MyMap = (props) => {
     const {t} = useTranslation();
+    let width;
+    let height;
+    if (window.innerWidth < 991) {
+        width = "300px";
+        height = "300px";
+    }
     return (
         <div className={s.wrapper}>
             <h1>{t('place_of_work')}</h1>
@@ -16,7 +22,7 @@ const MyMap = (props) => {
                      latitude: props.coordinates.latitude,
                      zoom: 14
                  }}
-                 style={{width: "500px", height: "500px", margin: "0 auto"}}
+                 style={{width: width, height: height, margin: "0 auto"}}
                  mapStyle="https://api.maptiler.com/maps/streets/style.json?key=0SSrcwvFMrE1W8cblstH"
             >
                 <NavigationControl position="top-left"/>

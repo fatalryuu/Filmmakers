@@ -5,7 +5,7 @@ import filmakersInfo from "../../data/filmakersInfo.js";
 
 const List = (props) => {
     return (
-        <div>
+        <div className={s.wrapper}>
             <Search details={filmakersInfo}/>
         </div>
     );

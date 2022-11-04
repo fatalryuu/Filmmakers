@@ -13,3 +13,10 @@
 .list h1 {
     text-align: left;
 }
+
+@media (max-width: 991px) {
+    .list {
+        height: auto;
+        width: 100%;
+    }
+}
