@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Filmmakers/static/css/main.d7e9b840.css",
-    "main.js": "/Filmmakers/static/js/main.c4f0d050.js",
+    "main.js": "/Filmmakers/static/js/main.ead31a00.js",
     "static/js/483.5d576495.chunk.js": "/Filmmakers/static/js/483.5d576495.chunk.js",
     "static/js/787.8adb4eff.chunk.js": "/Filmmakers/static/js/787.8adb4eff.chunk.js",
     "static/media/orlovPhoto3.JPG": "/Filmmakers/static/media/orlovPhoto3.e7e920884e79710eaaf6.JPG",
@@ -300,12 +300,12 @@
     "static/media/de.svg": "/Filmmakers/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/Filmmakers/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "main.d7e9b840.css.map": "/Filmmakers/static/css/main.d7e9b840.css.map",
-    "main.c4f0d050.js.map": "/Filmmakers/static/js/main.c4f0d050.js.map",
+    "main.ead31a00.js.map": "/Filmmakers/static/js/main.ead31a00.js.map",
     "483.5d576495.chunk.js.map": "/Filmmakers/static/js/483.5d576495.chunk.js.map",
     "787.8adb4eff.chunk.js.map": "/Filmmakers/static/js/787.8adb4eff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7e9b840.css",
-    "static/js/main.c4f0d050.js"
+    "static/js/main.ead31a00.js"
   ]
 }
