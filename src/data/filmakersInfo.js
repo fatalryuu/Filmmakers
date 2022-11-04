@@ -3,13 +3,13 @@ import aslukPhoto1 from '../img/asluk/aslukPhoto1.jpg';
 import aslukPhoto2 from '../img/asluk/aslukPhoto2.jpg';
 import aslukPhoto3 from '../img/asluk/aslukPhoto3.jpg';
 import aslukPhoto4 from '../img/asluk/aslukPhoto4.jpg';
-// import aslukPhoto5 from '../img/asluk/aslukPhoto5.jpg';
 
 import dobrolubov from '../img/dobrolubov/dobrolubov.jpg';
 import dobrolubovPhoto1 from '../img/dobrolubov/dobrolubovPhoto1.jpg';
 import dobrolubovPhoto2 from '../img/dobrolubov/dobrolubovPhoto2.jpg';
 import dobrolubovPhoto3 from '../img/dobrolubov/dobrolubovPhoto3.jpg';
 import dobrolubovPhoto4 from '../img/dobrolubov/dobrolubovPhoto4.jpg';
+import dobrolubovPhoto5 from '../img/dobrolubov/dobrolubovPhoto5.jpg';
 
 import kudinenko from '../img/kudinenko/kudinenko.jpg';
 import kudinenkoPhoto1 from '../img/kudinenko/kudinenkoPhoto1.jpg';
@@ -21,15 +21,13 @@ import kudinenkoPhoto5 from '../img/kudinenko/kudinenkoPhoto5.jpg';
 import orlov from '../img/orlov/orlov.jpg';
 import orlovPhoto1 from '../img/orlov/orlovPhoto1.jpg';
 import orlovPhoto2 from '../img/orlov/orlovPhoto2.jpg';
-import orlovPhoto3 from '../img/orlov/orlovPhoto3.jpg';
-import orlovPhoto4 from '../img/orlov/orlovPhoto4.JPG';
+import orlovPhoto3 from '../img/orlov/orlovPhoto3.JPG';
+import orlovPhoto4 from '../img/orlov/orlovPhoto4.jpg';
 
 import tarich from '../img/tarich/tarich.jpg';
 import tarichPhoto1 from '../img/tarich/tarichPhoto1.jpg';
 import tarichPhoto2 from '../img/tarich/tarichPhoto2.jpg';
 import tarichPhoto3 from '../img/tarich/tarichPhoto3.jpg';
-import tarichPhoto4 from '../img/tarich/tarichPhoto4.jpg';
-
 
 const filmakersInfo = [
     {
@@ -47,7 +45,6 @@ const filmakersInfo = [
             aslukPhoto2,
             aslukPhoto3,
             aslukPhoto4,
-            //aslukPhoto5
         ],
         links: [
             "https://www.youtube.com/embed/QcFzs7ry3SQ",
@@ -73,6 +70,7 @@ const filmakersInfo = [
             dobrolubovPhoto2,
             dobrolubovPhoto3,
             dobrolubovPhoto4,
+            dobrolubovPhoto5
         ],
         links: [
             "https://www.youtube.com/embed/h1bLCEKO6zY",
@@ -86,33 +84,6 @@ const filmakersInfo = [
     },
     {
         id: 3,
-        imgPath: orlov,
-        name: "Владимир Орлов",
-        name_en: "Vladimir Orlov",
-        dateOfBirth: 1971,
-        dateOfDeath: "наше время",
-        someText: "Белорусский писатель, публицист, режиссер театра и кино.\n" +
-            "В 1963 году окончил БГТХИ (первый выпуск режиссерского факультета).\n" +
-            "В 1956-59 годах работал на киностудии \"Беларусьфильм\": помощник, ассистент режиссера, режиссер-практикант.\n" +
-            "С 1963 по 2002 - на Гостелерадио РБ, т/о \"Телефильм\" (кинорежиссер-постановщик высшей категории).",
-        photos: [
-            orlovPhoto1,
-            orlovPhoto2,
-            orlovPhoto3,
-            orlovPhoto4,
-        ],
-        links: [
-            "https://www.youtube.com/embed/bW6aBmFZOVk",
-            "https://www.youtube.com/embed/Y_gRKe0IdmM"
-        ],
-        coordinates: {
-            longitude: 27.548602735447222,
-            latitude: 53.9093991787487
-        },
-        url: "/orlov"
-    },
-    {
-        id: 4,
         imgPath: kudinenko,
         name: "Андрей Кудиненко",
         name_en: "Andrey Kudinenko",
@@ -140,6 +111,33 @@ const filmakersInfo = [
         url: "/kudinenko"
     },
     {
+        id: 4,
+        imgPath: orlov,
+        name: "Владимир Орлов",
+        name_en: "Vladimir Orlov",
+        dateOfBirth: 1971,
+        dateOfDeath: "наше время",
+        someText: "Белорусский писатель, публицист, режиссер театра и кино.\n" +
+            "В 1963 году окончил БГТХИ (первый выпуск режиссерского факультета).\n" +
+            "В 1956-59 годах работал на киностудии \"Беларусьфильм\": помощник, ассистент режиссера, режиссер-практикант.\n" +
+            "С 1963 по 2002 - на Гостелерадио РБ, т/о \"Телефильм\" (кинорежиссер-постановщик высшей категории).",
+        photos: [
+            orlovPhoto1,
+            orlovPhoto2,
+            orlovPhoto3,
+            orlovPhoto4
+        ],
+        links: [
+            "https://www.youtube.com/embed/bW6aBmFZOVk",
+            "https://www.youtube.com/embed/Y_gRKe0IdmM"
+        ],
+        coordinates: {
+            longitude: 27.548602735447222,
+            latitude: 53.9093991787487
+        },
+        url: "/orlov"
+    },
+    {
         id: 5,
         imgPath: tarich,
         name: "Юрий Тарич",
@@ -152,8 +150,7 @@ const filmakersInfo = [
         photos: [
             tarichPhoto1,
             tarichPhoto2,
-            tarichPhoto3,
-            tarichPhoto4,
+            tarichPhoto3
         ],
         links: [
             "https://www.youtube.com/embed/n6l17pIZdTg",

@@ -13,7 +13,7 @@ const Person = (props) => {
     return (
         <div className={s.wrapper}>
             <h1>{t(name)}</h1>
-            <div>({props.info.dateOfBirth} - {props.info.dateOfDeath})</div>
+            <h4>({props.info.dateOfBirth} - {props.info.dateOfDeath})</h4>
             <img src={props.info.imgPath} alt="" className={s.avatar}/>
             <Timeline info={props.info}/>
             <Gallery photos={props.info.photos}/>

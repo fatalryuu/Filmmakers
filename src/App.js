@@ -25,7 +25,7 @@ const App = (props) => {
                 <Header/>
                 <div>
                     <Routes>
-                        <Route path='/info' element={<Info mainPerson={getRandomPerson()}/>}/>
+                        <Route path='/*' element={<Info mainPerson={getRandomPerson()}/>}/>
                         <Route path='/list' element={<List/>}/>
                         {filmakersInfo.map((person, i) => <Route key={i} path={person.url} element={<Person info={person}/>}/>)}
                     </Routes>
