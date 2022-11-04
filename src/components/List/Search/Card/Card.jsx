@@ -8,7 +8,7 @@ function Card(props) {
     const name = props.person.name_en.toLowerCase().split(' ').join('_');
     return(
         <div className={s.filmmaker}>
-            <NavLink to={props.person.url}><img alt="" src={props.person.imgPath} /></NavLink>
+            <NavLink to={props.person.url}><img alt="" src={props.person.imgPath}/></NavLink>
             <h2>{t(name)}</h2>
         </div>
     );

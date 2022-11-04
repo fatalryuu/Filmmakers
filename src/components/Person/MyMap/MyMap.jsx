@@ -7,8 +7,8 @@ import {useTranslation} from "react-i18next";
 
 const MyMap = (props) => {
     const {t} = useTranslation();
-    let width;
-    let height;
+    let width = "500px";
+    let height = "500px";
     if (window.innerWidth < 991) {
         width = "300px";
         height = "300px";

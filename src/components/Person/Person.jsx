@@ -14,7 +14,7 @@ const Person = (props) => {
         <div className={s.wrapper}>
             <h1>{t(name)}</h1>
             <div>({props.info.dateOfBirth} - {props.info.dateOfDeath})</div>
-            <img src={props.info.imgPath} alt=""/>
+            <img src={props.info.imgPath} alt="" className={s.avatar}/>
             <Timeline info={props.info}/>
             <Gallery photos={props.info.photos}/>
             <VideosList links={props.info.links}/>

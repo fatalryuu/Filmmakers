@@ -3,6 +3,7 @@ import aslukPhoto1 from '../img/asluk/aslukPhoto1.jpg';
 import aslukPhoto2 from '../img/asluk/aslukPhoto2.jpg';
 import aslukPhoto3 from '../img/asluk/aslukPhoto3.jpg';
 import aslukPhoto4 from '../img/asluk/aslukPhoto4.jpg';
+import aslukPhoto5 from '../img/asluk/aslukPhoto5.jpg';
 
 import dobrolubov from '../img/dobrolubov/dobrolubov.jpg';
 import dobrolubovPhoto1 from '../img/dobrolubov/dobrolubovPhoto1.jpg';
@@ -46,6 +47,7 @@ const filmakersInfo = [
             aslukPhoto2,
             aslukPhoto3,
             aslukPhoto4,
+            //aslukPhoto5
         ],
         links: [
             "https://www.youtube.com/embed/QcFzs7ry3SQ",
