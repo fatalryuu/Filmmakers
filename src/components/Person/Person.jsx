@@ -6,10 +6,15 @@ import MyMap from "./MyMap/MyMap";
 import VideosList from "./Videos/VideosList";
 import Gallery from "./Gallery/Gallery";
 import {useTranslation} from "react-i18next";
+import {useLoadScript} from "@react-google-maps/api"
 
 const Person = (props) => {
     const {t} = useTranslation();
     const name = props.info.name_en.toLowerCase().split(' ').join('_');
+    const {isLoaded} = useLoadScript(
+        {googleMapsApiKey: "AIzaSyAjWoYvnojTneG5630-xVLtpa0ernNo9DM"})
+    if (!isLoaded)
+        return <div>Loading...</div>
     return (
         <div className={s.wrapper}>
             <h1>{t(name)}</h1>

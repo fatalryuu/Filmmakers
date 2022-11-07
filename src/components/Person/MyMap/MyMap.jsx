@@ -1,35 +1,17 @@
-import React from 'react';
-import Map, {NavigationControl, Marker} from 'react-map-gl';
-import maplibregl from 'maplibre-gl'
-import 'maplibre-gl/dist/maplibre-gl.css';
+import React, {useMemo} from 'react';
+import {GoogleMap, MarkerF} from "@react-google-maps/api";
 import s from './MyMap.module.css'
 import {useTranslation} from "react-i18next";
 
 const MyMap = (props) => {
     const {t} = useTranslation();
-    let width = "500px";
-    let height = "500px";
-    if (window.innerWidth < 991) {
-        width = "300px";
-        height = "300px";
-    }
+    const center = useMemo(() => ({lat: 44, lng: -80}), []);
     return (
         <div className={s.wrapper}>
             <h1>{t('place_of_work')}</h1>
-            <Map mapLib={maplibregl}
-                 initialViewState={{
-                     longitude: props.coordinates.longitude,
-                     latitude: props.coordinates.latitude,
-                     zoom: 14
-                 }}
-                 style={{width: width, height: height, margin: "0 auto"}}
-                 mapStyle="https://api.maptiler.com/maps/streets/style.json?key=0SSrcwvFMrE1W8cblstH"
-            >
-                <NavigationControl position="top-left"/>
-                <Marker longitude={props.coordinates.longitude}
-                        latitude={props.coordinates.latitude}
-                        color='#00ff94' />
-            </Map>
+            <GoogleMap zoom={10} center={center} mapContainerClassName={s.container}>
+                <MarkerF position={center} />
+            </GoogleMap>
         </div>
     )
 }
