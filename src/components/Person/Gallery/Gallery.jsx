@@ -21,9 +21,6 @@ const Gallery = (props) => {
             <div className={s.gallery}>
                 {props.photos.map((imgSrc, i) => {
                     let width = '100%';
-                    if (imgSrc.includes('tarich')) {
-                        width = '450px';
-                    }
                     return (
                         <div className={s.pics} key={i} onClick={() => getImg(imgSrc)}>
                             <img src={imgSrc} alt="" style={{width: width}}/>
