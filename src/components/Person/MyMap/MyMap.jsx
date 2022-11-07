@@ -5,11 +5,11 @@ import {useTranslation} from "react-i18next";
 
 const MyMap = (props) => {
     const {t} = useTranslation();
-    const center = useMemo(() => ({lat: 44, lng: -80}), []);
+    const center = useMemo(() => ({lat: props.coordinates.latitude, lng: props.coordinates.longitude}), []);
     return (
         <div className={s.wrapper}>
             <h1>{t('place_of_work')}</h1>
-            <GoogleMap zoom={10} center={center} mapContainerClassName={s.container}>
+            <GoogleMap zoom={14} center={center} mapContainerClassName={s.container}>
                 <MarkerF position={center} />
             </GoogleMap>
         </div>
