@@ -21,7 +21,7 @@ import kudinenkoPhoto5 from '../img/kudinenko/kudinenkoPhoto5.jpg';
 import orlov from '../img/orlov/orlov.jpg';
 import orlovPhoto1 from '../img/orlov/orlovPhoto1.jpg';
 import orlovPhoto2 from '../img/orlov/orlovPhoto2.jpg';
-import orlovPhoto3 from '../img/orlov/orlovPhoto3.JPG';
+import orlovPhoto3 from '../img/orlov/orlovPhoto3.jpg';
 import orlovPhoto4 from '../img/orlov/orlovPhoto4.jpg';
 
 import tarich from '../img/tarich/tarich.jpg';
